@@ -1,0 +1,229 @@
+/*******TAG SELECTORS*******/
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/******* CLASS SELECTORS "." *******/
+
+.container-fluid {
+
+    padding: 0% 15% 5px;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #7d7c7c;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    color: azure;
+
+}
+
+/* buttons */
+
+.download-button {
+    font-family: "Ubuntu";
+    margin: 5% 3% 5% 0%;
+}
+
+/* title */
+
+.header2, .header3, .header4, .header5 {
+    opacity: 0;
+    padding: 5%;
+  }
+
+.title-image {
+   
+   position: static;
+   margin: 6% 10%;
+   width: 600px;
+   height: 730px;
+   border-radius: 100%;
+
+}
+
+.title-name {
+
+    margin: 10% 0%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        width: 45%;
+        height: 65%;
+    }
+
+    .title-btn {
+        margin-top: 10%; 
+    }
+   }
+
+/* features */
+
+.feature-box {
+    text-align: left;
+    padding: 1% 5%;
+}
+
+.icon {
+    color: #93BFCF;
+    margin-bottom: 1rem;   
+}
+
+.icon:hover {
+    color: #7d7c7c;
+}
+
+.textHeading {
+    color: black;
+}
+
+/* About Me section */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.aboutPad {
+    padding-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 3.36rem;
+}
+
+/* examples */
+
+.example-column {
+    padding: 3% 2%;
+}
+
+.card-body {
+    background-color: azure;
+}
+
+/* Call to Action */
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.contactH {
+    color: #EEEEEE;
+}
+
+.noUnder {
+    text-decoration: none;
+}
+
+.noUnder:hover {
+    color: #7d7c7c;
+}
+
+
+
+/* footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+/*****************ID SELECTORS "#" ******************/
+
+#title {
+    background-color: #93BFCF;
+    color: #EEEEEE;
+}
+
+/* skills */
+
+#skills {
+    padding: 5% 10%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: azure;
+    position: relative;
+    
+}
+
+/* about*/
+
+#about {
+    
+    text-align: center;
+    background-color: #93BFCF;
+    color: #EEEEEE;
+}
+
+/* checkGit */
+
+#checkGit {
+    padding: 100px;
+    text-align: center;
+    font-weight: bold;
+    background-color: azure;
+
+}
+
+/* contact */
+
+#contact {
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding: 7% 15%;
+    background-color: #93BFCF;
+    color: #EEEEEE;
+    text-align: left;
+}
+
+/* Footer */
+
+#footer {
+    padding: 1% 15%;
+    background-color:  azure;
+    text-align: center;
+}
